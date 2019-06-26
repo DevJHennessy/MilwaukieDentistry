@@ -1,0 +1,36 @@
+// main: styles.scss
+
+// Font Variables:
+$navFont: PT Sans, sans-serif;
+$defaultFont: Open Sans, sans-serif;
+$headingFont: Catamaran, sans-serif;
+$photoHeadingFont: Chakra Petch;
+$modalHeadingFont: yantramanav;
+@font-face {
+  font-family: Blanch;
+  src: url(../fonts/Blanch-Bold.ttf);
+}
+
+// Colors:
+$BlueBackground: #002842;
+$BeigeBackground: #F9F9ED;
+$DarkBeige: darken($BeigeBackground, 50%);
+$BlueFontColor: #0D2C3E;
+$NearBlackColor: #0E0E0D;
+$GrayFontColor: #E4E4DB;
+$GrayHover: darken($GrayFontColor, 10%);
+$BlueBackgroundHover: lighten($BlueBackground, 10%);
+$LightBackground: #fff;
+$OffWhite: darken(#fff, 5%);
+
+$gutter: 2%;
+
+
+// Mixins:
+// @mixin linGunMetalGradient() {
+//   background-image: linear-gradient($gunMetalGray, $darkerGunMetal);
+// }
+//
+@mixin beigeGradient() {
+  background-image: radial-gradient(#fff, $BlueBackgroundHover);
+}

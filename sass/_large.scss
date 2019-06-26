@@ -1,0 +1,139 @@
+// main: styles.scss
+
+/* BODY */
+
+/* NAVIGATION */
+#menu-wrapper {
+  font-size: 1em;
+
+  // a.menu-link {
+  //   padding-right: 3rem;
+  //
+  // }
+
+  ul.menu {
+    border-top: none;
+    border-bottom: none;
+  }
+
+
+.menu-link {
+  // font-size: 1.25em;
+  font-size: 1.857em;
+
+}
+
+  #menu {
+    // right: 0;
+    // width: 25vw;
+    // height: 40vh;
+  }
+
+// Responsive Height for navigation
+  // @media only screen and (min-height: 800px) {
+  // 	#menu {
+  //     height: 30vh;
+  //   }
+  // }
+  //
+  // @media only screen and (min-height: 1000px) {
+  //   #menu {
+  //     height: 25vh;
+  //   }
+  // }
+  //
+  // @media only screen and (min-height: 1200px) {
+  //   #menu {
+  //     height: 20vh;
+  //   }
+  // }
+  //
+  // @media only screen and (min-height: 1350px) {
+  //   #menu {
+  //     height: 18vh;
+  //   }
+  // }
+
+  // .toggle-link {
+  //   height: auto;
+  //   width: auto;
+  // }
+  //
+  //   .menu .has-subnav>.toggle-link:after {
+  //   margin-top: 0px;
+  // }
+  //
+  // .menu .has-subnav>.toggle-link.active:after {
+  //   margin-top: 0px;
+  // }
+
+}
+
+nav {
+  display: inline-block;
+  position: absolute;
+  line-height: 5%;
+  right: 25px;
+
+  .logo {
+  	display: inline;
+  	padding-left: 0;
+  	img {
+  		height: 56px;
+  	}
+  }
+
+}
+
+/* MAIN */
+main {
+
+  /* Banner Section */
+  #banner {
+
+  }// End Banner Section
+
+  /* Welcome Section */
+  #welcome {
+
+  }// End Welcome Section
+
+  /* Team Section */
+  #team {
+    #sliderContainer {
+      .slick-list {
+        width: 20vw;
+        // margin: 0 auto;
+      }
+      img {
+        margin-top: 50%;
+      }
+    }
+  }// End Team
+
+  /* Deals Section */
+  #deals {
+
+  }// End deals
+
+  /* Reviews Section */
+  #reviews {
+
+  }// End Reviews
+
+  /* Services Section */
+  #services {
+
+  }// End services
+
+  /* Awards Section */
+  #awards {
+
+  }// End Awards
+
+  /* Info Section */
+  #info {
+
+  }// End Info
+
+}

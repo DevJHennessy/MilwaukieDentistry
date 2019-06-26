@@ -1,0 +1,139 @@
+// main: styles.scss
+
+/* BODY */
+body {
+}
+
+header {
+  text-align: right;
+  // padding: 1rem $gutter;
+
+  #phone {
+    padding-right: .5rem;
+  }
+  #address {
+    display: inline-block;
+    font-size: .75em;
+  }
+  button {
+    padding: 6px 15px;
+  }
+  p {
+    display: inline-block;
+    padding: 0 .5rem;
+    vertical-align: middle;
+    // font-size: 1.25em;
+
+  }
+}
+
+/* MAIN */
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "banner banner"
+    "welcome team"
+    "deals deals"
+    "reviewOne reviewTwo"
+    "services services"
+    "awards awards"
+    "info map";
+
+  // display: grid;
+  // display: -ms-grid;
+  // grid-template-columns: 1fr 1fr;
+  // -ms-grid-columns: 1fr 1fr;
+  // grid-column-gap: 10px;
+  // grid-row-gap: 10px;
+
+  	/* Banner Section */
+    #banner {
+
+    }// End Banner Section
+
+    /* Welcome Section */
+    #welcome {
+      // width: 50vw;
+    }// End Welcome Section
+
+    /* Team Section */
+    #team {
+      // width: 50vw;
+      // margin: 0 auto;
+      #sliderContainer {
+        .slick-list {
+          width: 40vw;
+          // margin: 0 auto;
+        }
+        img {
+          margin-top: 43%;
+        }
+      }
+    }// End Team
+
+
+
+    /* Deals Section */
+    #deals {
+      // width: 100vw;
+      padding-top: 0;
+    }// End Deals Section
+
+    /* Review One Section */
+    #reviewOne {
+      // width: 50vw;
+    }// End Review One Section
+
+    /* Review Two Section */
+    #reviewTwo {
+      // width: 50vw;
+      // padding-top: 3em;
+      div.reviewSlider div {
+          width: 34vw;
+      }
+
+    }// End Reviews
+
+    /* Services Section */
+    #services {
+
+      .servicesDescription {
+        // display: grid;
+        // display: -ms-grid;
+        // grid-template-columns: 1fr 1fr;
+        // -ms-grid-columns: 1fr 1fr;
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+          "cleaning implants"
+          "wisdomTeeth braces"
+          "sedation crowns";
+          // grid-column-gap: 10px;
+          grid-row-gap: 2.5em;
+          padding-top: 2rem;
+
+      }
+
+
+    }// End services
+
+    /* Awards Section */
+    #awards {
+
+    }// End Awards
+
+    /* Info Section */
+    #info {
+      // width: 50vw;
+    }// End Info
+
+    /* Map Section */
+    #map {
+      // width: 50vw;
+    }// End Map
+
+
+}// END MAIN
