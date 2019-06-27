@@ -473,7 +473,7 @@ nav {
 
 main {
 	display: grid;
-	display: -ms-grid;
+	// display: -ms-grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto;
 	grid-template-areas:
