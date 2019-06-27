@@ -64,6 +64,7 @@ nav {
 
 .sticky {
   position: sticky;
+	position: -webkit-sticky;
   top: 0;
 	z-index: 999;
   width: 100%;
@@ -352,6 +353,7 @@ nav {
 
     .menu .menu {
          // padding-bottom: 5px;
+				 margin-bottom: 140px;
     }
     .menu  li {
         display: block;
